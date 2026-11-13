@@ -1,6 +1,9 @@
-# india-stock-signals
+# Ai-trading-skill
 
-A Claude skill that scans Indian stocks for strong technical setups and checks the news around them.
+**India stock signals for Claude.** A Claude skill (`india-stock-signals`) that scans NSE stocks for
+breakouts, candlestick patterns and volume / trend confluence, gives entry, stop-loss and target prices for
+the strong setups only, and checks stock and sector news around each one. Free data, no API key, analysis
+only: it never places orders.
 
 - **Data**: free daily candles from Yahoo Finance (NSE tickers), index constituents from NSE, headlines from
   Google News RSS. No account or API key needed.
@@ -18,9 +21,9 @@ Clone into a Claude skills folder:
 
 ```bash
 # for every project
-git clone https://github.com/shrikrishnakatore/Trading-skill-india.git ~/.claude/skills/india-stock-signals
+git clone https://github.com/shrikrishnakatore/Ai-trading-skill.git ~/.claude/skills/india-stock-signals
 # or for one project
-git clone https://github.com/shrikrishnakatore/Trading-skill-india.git .claude/skills/india-stock-signals
+git clone https://github.com/shrikrishnakatore/Ai-trading-skill.git .claude/skills/india-stock-signals
 
 cd <that folder>
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
