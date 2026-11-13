@@ -18,9 +18,9 @@ Clone into a Claude skills folder:
 
 ```bash
 # for every project
-git clone https://github.com/shrikrishnakatore/india-stock-signals.git ~/.claude/skills/india-stock-signals
+git clone https://github.com/shrikrishnakatore/Trading-skill-india.git ~/.claude/skills/india-stock-signals
 # or for one project
-git clone https://github.com/shrikrishnakatore/india-stock-signals.git .claude/skills/india-stock-signals
+git clone https://github.com/shrikrishnakatore/Trading-skill-india.git .claude/skills/india-stock-signals
 
 cd <that folder>
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
